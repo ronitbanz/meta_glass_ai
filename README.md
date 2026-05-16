@@ -1,4 +1,10 @@
-# meta_glass_ai
+
+
+
+
+https://github.com/user-attachments/assets/02b25bf8-40f5-417b-8375-ee894e697641
+
+
 An iOS app that uses Apple OCR to detect text encountered by meta ai glasses
 
 Here’s the full end‑to‑end flow to test the app:
