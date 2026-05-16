@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>$(URL_SCHEME)</string>
+            </array>
+        </dict>
+    </array>
+    <key>MWDAT</key>
+    <dict>
+        <key>AppLinkURLScheme</key>
+        <string>$(MWDAT_APP_LINK_URL_SCHEME)</string>
+        <key>ClientToken</key>
+        <string>$(MWDAT_CLIENT_TOKEN)</string>
+        <key>MetaAppID</key>
+        <string>$(MWDAT_META_APP_ID)</string>
+        <key>TeamID</key>
+        <string>$(DEVELOPMENT_TEAM)</string>
+    </dict>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>bluetooth-peripheral</string>
+        <string>external-accessory</string>
+    </array>
+    <key>UISupportedExternalAccessoryProtocols</key>
+    <array>
+        <string>com.meta.ar.wearable</string>
+    </array>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Needed to connect to Meta Wearables</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Save photos captured from your glasses.</string>
+</dict>
+</plist>
